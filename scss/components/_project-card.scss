@@ -1,0 +1,14 @@
+.project-card {
+    &__body {
+        padding: 2rem;
+    }
+    
+    &__image-link {
+        width: 100%;
+    }
+
+    &__image {
+        height: 20rem;
+        width: 100%;
+    }
+}

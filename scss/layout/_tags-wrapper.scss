@@ -1,0 +1,12 @@
+.tags-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+    &_sm {
+        gap: 0.5rem;
+    }
+
+    &_lg {
+        gap: 1rem;
+    }
+}

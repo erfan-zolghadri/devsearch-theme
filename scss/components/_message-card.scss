@@ -1,0 +1,17 @@
+.message-card {
+    max-width: 95rem;
+    padding: 4rem;
+    margin: 8rem auto;
+
+    &__actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .message-card {
+        padding: 2rem;
+    }
+}

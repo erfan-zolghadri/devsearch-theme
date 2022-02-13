@@ -1,0 +1,51 @@
+.tag {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+    cursor: pointer;
+    
+    &_default {
+        background-color: #e5f1f6;
+        color: #377b99;
+    }
+
+    &_sm {
+        padding: 0.5rem 1.5rem;
+    }
+
+    &_lg {
+        padding: 0.7rem 3.5rem;
+    }
+
+    &_circle {
+        border-radius: 50%;
+        padding: 1rem;
+    }
+    
+    &__icon {
+        height: auto;
+        width: auto;
+        margin-right: 0.5rem;
+
+        &_center {
+            margin-right: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .tag {
+        &_lg {
+            padding: 0.5rem 3rem;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .tag {
+        &_lg {
+            padding: 0.3rem 2rem;
+        }
+    }
+}

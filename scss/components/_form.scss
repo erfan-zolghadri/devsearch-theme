@@ -1,0 +1,30 @@
+.form {
+    &__group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__label {
+        &_required::after {
+            content: " *";
+            color: var(--color-danger);
+        }
+    }
+
+    &__input {
+        border: 0.2rem solid var(--color-lighter);
+        width: 100%;
+
+        &_textbox {
+            resize: vertical;
+            min-height: 15rem;
+            max-height: 25rem;
+        }
+    }
+
+    &__actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

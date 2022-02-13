@@ -1,0 +1,2 @@
+showNavbarMenu();
+closeAlertMessage();

@@ -1,0 +1,54 @@
+.text-xxlg {
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 1.8;
+}
+
+.text-xlg {
+    font-size: 2.5rem;
+}
+
+.text-lg {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.text-md {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.text-sm {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.text-xsm {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.text-xxsm {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 580px) {
+    .text-xxlg {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .text-xxlg {
+        font-size: 2.5rem;
+    }
+
+    .text-xlg {
+        font-size: 2.2rem;
+    }
+
+    .text-md {
+        font-size: 1.5rem;
+    }
+}

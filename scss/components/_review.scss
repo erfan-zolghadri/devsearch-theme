@@ -1,0 +1,22 @@
+.review {
+    display: flex;
+    gap: 1rem;
+
+    &__image {
+        height: 8rem;
+        width: 8rem;
+        border: 0.2rem solid var(--color-primary);
+        border-radius: 50%;
+    }
+    
+    &__info {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .review {
+        flex-direction: column;
+    }
+}

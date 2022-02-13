@@ -1,0 +1,32 @@
+.button {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    border: 0.2rem solid transparent;
+    border-radius: var(--radius);
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    
+    &_lg {
+        padding: 1.2rem 4rem;
+        font-size: 1.7rem;
+    }
+
+    &_primary {
+        background-color: var(--color-primary);
+        color: var(--color-white);
+
+        &:hover {
+            background-color: var(--color-primary-dark);
+        }
+    }
+
+    &_danger {
+        background-color: var(--color-danger);
+        color: var(--color-white);
+
+        &:hover {
+            background-color: var(--color-danger-dark);
+        }
+    }
+}

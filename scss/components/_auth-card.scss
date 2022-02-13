@@ -1,0 +1,22 @@
+.auth-card {
+    flex-basis: 60rem;
+    padding: 5rem 7rem;
+    box-shadow: -0.2rem 0.2rem 0.6rem var(--color-dark);
+    border: 0.1rem solid var(--color-dark);
+
+    &__icon-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    
+    &__icon {
+        height: 5rem;
+        width: 5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .auth-card {
+        padding: 3rem 2rem;
+    }
+}

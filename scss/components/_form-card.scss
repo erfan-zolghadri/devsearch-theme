@@ -1,0 +1,11 @@
+.form-card {
+    max-width: 60rem;
+    padding: 4rem;
+    margin: 8rem auto;
+}
+
+@media screen and (max-width: 650px) {
+    .form-card {
+        padding: 3rem 2rem;
+    }
+}

@@ -1,0 +1,6 @@
+@mixin grid ($width: 32rem, $gap: 2rem) {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, $width);
+    gap: $gap;
+    justify-content: center;
+}

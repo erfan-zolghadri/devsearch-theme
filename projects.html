@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>DevSearch | Projects</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="main-wrapper">
+            <div class="navbar__wrapper">
+                <a href="./index.html" class="navbar__logo-wrapper">
+                    <img src="./img/icons/logo.svg" alt="" class="navbar__logo">
+                </a>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="./index.html" class="navbar__link">Developers</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="./projects.html" class="navbar__link">Projects</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="./inbox.html" class="navbar__link">Inbox</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="./account.html" class="navbar__link">My Account</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="./login.html" class="button button_primary">Login/Sign Up</a>
+                    </li>
+                </ul>
+                <div class="navbar__button">
+                    <div class="navbar__button-line navbar__button-line_1st"></div>
+                    <div class="navbar__button-line navbar__button-line_2nd"></div>
+                    <div class="navbar__button-line navbar__button-line_3rd"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-secondary header">
+        <div class="main-wrapper">
+            <h1 class="text-xxlg text-center mb-xxlg">
+                <span class="header__title">
+                    SEARCH FOR
+                    <span class="text-bold">PROJECTS</span>
+                </span>
+            </h1>
+            <form action="" method="POST" class="text-center">
+                <input type="search" class="input header__input" placeholder="Search for developers">
+                <button class="button button_lg button_primary header__button">Search</button>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <section class="projects">
+            <div class="main-wrapper">
+                <div class="projects__wrapper">
+                    <article class="card project-card">
+                        <a href="./project.html" class="project-card__image-link">
+                            <img src="./img/default_project.jpg" alt="Project Image" class="project-card__image">
+                        </a>
+                        <div class="project-card__body">
+                            <h3 class="text-lg">Code Sniper</h3>
+                            <a href="" class="text-xsm text-primary text-italic mb-xsm">By John Doe</a>
+                            <p class="text-sm mb-md">
+                                <span class="text-bold">92%</span>
+                                Positive Feedback (10 Votes)
+                            </p>
+                            <div class="tags-wrapper tags-wrapper_sm">
+                                <span href="" class="tag tag_sm tag_default">
+                                    <small class="text-xxsm">HTML</small>
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <div class="pagination">
+            <ul class="pagination__list">
+                <li>
+                    <a href="#" class="text-dark bg-lighter pagination__button">&#10094; Prev</a>
+                </li>
+                <li>
+                    <a href="#" class="text-white bg-primary pagination__button">01</a>
+                </li>
+                <li>
+                    <a href="#" class="text-dark bg-lighter pagination__button">02</a>
+                </li>
+                <li>
+                    <a href="#" class="text-dark bg-lighter pagination__button">03</a>
+                </li>
+                <li>
+                    <a href="#" class="text-dark bg-lighter pagination__button">Next &#10095;</a>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <script src="./js/functions.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

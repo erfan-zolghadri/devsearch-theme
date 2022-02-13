@@ -1,0 +1,22 @@
+@use '../abstracts/mixins' as *;
+
+.profile {
+    &__dev-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__projects {
+        @include grid($width: minmax(30rem, 1fr));
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .profile {
+        &__image-wrapper {
+            height: 15rem;
+            width: 15rem;
+        }
+    }
+}

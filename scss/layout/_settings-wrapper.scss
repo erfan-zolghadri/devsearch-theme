@@ -1,0 +1,9 @@
+.settings-wrapper {
+    padding: 1rem 2.5rem;
+    border-radius: var(--radius);
+    background-color: var(--color-white);
+
+    & > *:not(:last-child) {
+        border-bottom: 0.1rem solid var(--color-lighter);
+    }
+}

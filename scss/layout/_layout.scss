@@ -1,0 +1,29 @@
+.layout {
+    display: grid;
+    grid-template-columns: 1.3fr 3fr;
+    align-items: flex-start;
+    gap: 4rem;
+    padding: 3rem 0;
+    
+    &__column {
+        &_1of3 {
+            text-align: center;
+        }
+
+        &__2of3 {
+            padding: 0 3rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .layout {
+        grid-template-columns: 1fr;
+
+        &__column {
+            &_2of3 {
+                padding: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.pagination {
+    margin: 5rem 0;
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    &__button {
+        padding: 1rem 1.5rem;
+        border-radius: var(--radius);
+    }
+}

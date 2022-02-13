@@ -1,0 +1,8 @@
+@use '../abstracts/mixins' as *;
+
+.profiles {
+    &__wrapper {
+        @include grid($width: minmax(32rem, 1fr));
+        padding: 8rem 0;
+    }
+}
